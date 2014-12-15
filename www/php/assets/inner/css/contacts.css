@@ -1,0 +1,21 @@
+#contacts{
+    margin: 20px 0;
+    min-height: 90%;
+    display: inline-block;
+    background-color: #96BBC1;
+    padding: 20px;
+}
+#contacts > div{
+    border: 10px #FFF solid;
+    display: inline-block;
+}
+#contacts h3, #contacts h4{
+    color: #FFF;
+    font-family: 'AntiqueOliveBold';
+    text-align: center;
+}
+#contacts h1, #contacts p{
+    font-family: 'AntiqueOliveBold';
+    text-align: center;
+    color: #3C646B;
+}

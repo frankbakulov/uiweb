@@ -1,0 +1,42 @@
+#carousel{
+    background: url("/php/assets/texture/normal/wooden-bg.png") left repeat-x;
+    background-size: cover;
+    height: 1100px;
+}
+#carousel h1{
+    font-family: 'AntiqueOliveBold', Arial, sans-serif;
+    letter-spacing: 2px;
+    font-size: 40px;
+    color: #ffffff;
+    margin: 50px 0 0 0;
+}
+#carousel > div{
+    padding: 40px 0;
+}
+#carousel > div > div{
+    background-image: url("/php/assets/main/img/tablet.png");
+    display: block;
+    background-size: cover;
+    width: 963px;
+    height: 755px;
+    margin: 10px auto;
+}
+#tablet-slider{
+    position: absolute;
+    width: 779px;
+    height: 585px;
+    margin: 85px 93px;
+    overflow: hidden;
+    /*box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);*/
+}
+#tablet-slider .slider-inner{
+    height: 100%;
+    position: relative;
+}
+#tablet-slider .slider-inner > div{
+    height: 100%;
+    background-image: url("/php/assets/common/img/model/project/1/1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+}

@@ -1,0 +1,8 @@
+#footer{
+    height: 126px;
+    background: #312a24 url("/php/assets/main/img/footer.jpg") repeat-x;
+}
+#footer .copyright {
+    color: #fff;
+    font-size: 12px;
+}

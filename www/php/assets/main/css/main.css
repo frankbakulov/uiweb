@@ -1,0 +1,273 @@
+body{
+    /*раскомментить на главной*/
+    /*overflow: hidden;*/
+
+}
+#wrapper{
+    min-width: 650px;
+    margin: 60px 0 0 0;
+    min-height: 100%;
+}
+/***** page slide start *****/
+.page{
+    display: block;
+    width: 100%;
+    z-index: 0;
+    overflow: hidden;
+}
+#main{
+    /*удалить на главной*/
+    background: url("/php/assets/texture/normal/bg.png") left top repeat;
+    padding: 10px 0 600px;
+}
+#main h1:first-of-type{
+    margin: 200px auto 0;
+}
+#main h1, #main h2{
+    font-family: 'AntiqueOliveBold';
+    color: #FFFFFF;
+}
+#main h1{
+    font-size: 60px;
+}
+#main h2{
+    font-size: 30px;
+}
+#our-tech{
+    height: 1800px;
+}
+#our-tech .row{
+    margin: 80px 0 0 0;
+}
+#our-tech h1{
+    font-family: 'AntiqueOliveBold', Arial, sans-serif;
+    letter-spacing: 2px;
+    font-size: 40px;
+    margin: 50px 0 0 0;
+}
+#our-tech h2{
+    font-family: 'AntiqueOliveBold', Arial, sans-serif;
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin: 20px 0 0 0;
+}
+#our-tech h4{
+    font-family: 'Agletcr', Arial, sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+#our-tech .tech-icon{
+    display: inline-block;
+    width: 256px;
+    height: 256px;
+    background-size: cover;
+}
+#our-tech .icon-html5{
+    background-image: url("/php/assets/main/img/icon/html5.png");
+}
+#our-tech .icon-css3{
+    background-image: url("/php/assets/main/img/icon/css3.png");
+}
+#our-tech .icon-php{
+    background-image: url("/php/assets/main/img/icon/php.png");
+}
+#our-tech .icon-javascript{
+    background-image: url("/php/assets/main/img/icon/javascript.png");
+}
+#our-tech .icon-angularjs{
+    background-image: url("/php/assets/main/img/icon/angularjs.png");
+}
+#slider-content{
+    width: 100%;
+    height: 100%;
+    transition:all 1s ease-in-out;
+}
+@media (max-width: 1179px) and (min-width: 979px){
+    #main{
+        padding: 10px 0 200px;
+    }
+    #carousel{
+        height: 800px;
+    }
+    #carousel > div{
+        padding: 20px 0;
+    }
+    #carousel > div > div{
+        width: 663px;
+        height: 520px;
+        margin: 30px auto;
+    }
+    #tablet-slider{
+        width: 538px;
+        height: 404px;
+        margin: 58px 63px;
+    }
+    #our-tech{
+        height: 1100px;
+    }
+    #our-tech .tech-icon{
+        display: none;
+    }
+}
+@media (max-width: 979px) and (min-width: 768px){
+    #main{
+        padding: 10px 0 130px;
+    }
+    #main .btn-default, #main .btn-order{
+        padding: 15px 0;
+        width: 475px;
+        height: 50px;
+        font-size: 14px;
+        text-align: center;
+    }
+    #carousel{
+        height: 750px;
+    }
+    #carousel > div{
+        padding: 30px 0;
+    }
+    #carousel > div > div{
+        width: 663px;
+        height: 520px;
+        margin: 40px auto;
+    }
+    #tablet-slider{
+        width: 538px;
+        height: 403px;
+        margin: 59px 62px 59px 64px;
+    }
+    #our-tech{
+        height: 1200px;
+    }
+    #our-tech .tech-icon{
+        display: none;
+    }
+}
+@media (max-width: 768px){
+    #main{
+        padding: 10px 0 60px;
+    }
+    #main .btn-default, #main .btn-order{
+        padding: 15px 0;
+        width: 475px;
+        height: 50px;
+        font-size: 14px;
+        text-align: center;
+    }
+    #carousel{
+        height: 800px;
+    }
+    #carousel > div{
+        padding: 40px 0;
+    }
+    #carousel > div > div{
+        width: 663px;
+        height: 520px;
+        margin: 20px auto;
+    }
+    #tablet-slider{
+        width: 538px;
+        height: 403px;
+        margin: 59px 62px 59px 64px;
+    }
+    #our-tech{
+        height: 1300px;
+    }
+    #our-tech .tech-icon{
+        display: none;
+    }
+}
+
+/***** common classes *****/
+.inner-relative{
+    position: relative;
+}
+/***** common classes *****/
+
+
+/***** page slider end *****/
+
+/***** gears start *****/
+#gears{
+    width: 330px;
+    height: 320px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    border-radius: 60px;
+    border: 1px solid #000;
+    box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+#cover{
+    width: 330px;
+    height: 320px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    border-radius: 60px;
+    z-index: 10;
+    background: transparent url("/php/assets/main/img/body2.png") left top repeat;
+    border: 1px solid #000;
+}
+/***** gears end *****/
+
+/***** positions *****/
+
+.poz1{
+    left: 70%;
+    top: 20%;
+}
+
+/***** positions *****/
+
+/***** romos start *****/
+
+.romvos-footer{
+    width: 355px;
+    height: 355px;
+    display: inline-block;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background-color: #ffffff;
+    position: absolute;
+    box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.05);
+}
+.footer-header{
+    width: 355px;
+    height: 200px;
+    padding: 145px 0 0 0;
+    text-align: center;
+    position: absolute;
+}
+.big-title{
+    font-size: 50px;
+    line-height: 70px;
+    margin: 0;
+}
+.big-title{
+    font-family: "Agletcr", Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+    display: block;
+}
+.colors{
+    background-color: #EBCD97;
+}
+/***** romos end *****/
+
+#main-canvas{
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    position: fixed;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+}

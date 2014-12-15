@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# This is set to 500 by default. Since I have ”MaxRequestsPerChild 1000”
+# in MPM configuration, I disable this PHP feature.
+#PHP_FCGI_MAX_REQUESTS=0
+#export PHP_FCGI_MAX_REQUESTS
+
+exec /usr/local/php5/bin/php-cgi

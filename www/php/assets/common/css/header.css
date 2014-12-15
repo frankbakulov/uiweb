@@ -1,0 +1,65 @@
+/***** header common part start *****/
+#menu{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 60px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.05);
+    z-index: 100;
+    min-width: 650px;
+}
+#menu > div{
+    position: relative;
+}
+#menu > div > div{
+    position: absolute;
+    left: 0;
+    top: 16px;
+    height: 25px;
+    width: 130px;
+    background: transparent url("/php/assets/common/img/logo.png") left top no-repeat;
+    background-size: contain;
+    text-indent: 200%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#menu > div > div a{
+    display: block;
+}
+#menu ul{
+    position: absolute;
+    top: 0;
+    right: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    outline: 0;
+    font-size: 14px;
+    font-weight: bolder;
+
+    -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+#menu li{
+    float: left;
+}
+#menu li:hover{
+
+}
+#menu li a.header-link{
+    display: block;
+    line-height: 60px;
+    padding: 0 20px;
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.5s ease-out;
+    text-transform: uppercase;
+}
+#menu li a.header-link:hover{
+    color: #000000;
+}
+/***** header common part end *****/

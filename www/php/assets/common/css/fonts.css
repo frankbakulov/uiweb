@@ -1,0 +1,22 @@
+/***** fonts *****/
+@font-face {
+    font-family: 'Agletcr';
+    src: url('/php/assets/font/agletcr/agletcr.eot');
+    src: url('/php/assets/font/agletcr/agletcr.eot?#iefix') format('embedded-opentype'),
+    url('/php/assets/font/agletcr/agletcr.woff') format('woff'),
+    url('/php/assets/font/agletcr/agletcr.ttf') format('truetype'),
+    url('/php/assets/font/agletcr/agletcr.svg#agletcr') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'AntiqueOliveBold';
+    src: url('/php/assets/font/antique-olive-bold/antique-olive-bold.eot');
+    src: url('/php/assets/font/antique-olive-bold/antique-olive-bold.eot?#iefix') format('embedded-opentype'),
+    url('/php/assets/font/antique-olive-bold/antique-olive-bold.woff') format('woff'),
+    url('/php/assets/font/antique-olive-bold/antique-olive-bold.ttf') format('truetype'),
+    url('/php/assets/font/antique-olive-bold/antique-olive-bold.svg#bahamabd') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/***** fonts end *****/

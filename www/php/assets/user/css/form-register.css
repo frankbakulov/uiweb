@@ -1,0 +1,141 @@
+#form-register input[type="text"]{
+    margin-bottom: 20px;
+    padding: 0 25px;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #d8d8d8;
+    border-radius: 5px;
+    background-color: #fff;
+    background-clip: padding-box;
+    box-shadow: inset 3px 3px 5px rgba(0,0,0,.05);
+}
+#form-register input[name="password"]{
+    margin-bottom: 20px;
+    padding: 0 25px;
+    width: 90%;
+    height: 50px;
+    border: 1px solid #d8d8d8;
+    border-radius: 5px;
+    background-color: #fff;
+    background-clip: padding-box;
+    box-shadow: inset 3px 3px 5px rgba(0,0,0,.05);
+}
+#form-register input[name="password_repeat"]{
+    margin: 0 0 20px 10%;
+    padding: 0 25px;
+    width: 90%;
+    height: 50px;
+    border: 1px solid #d8d8d8;
+    border-radius: 5px;
+    background-color: #fff;
+    background-clip: padding-box;
+    box-shadow: inset 3px 3px 5px rgba(0,0,0,.05);
+}
+#form-register .col-lg-6{
+    padding: 0;
+    margin: 0;
+}
+#form-register input[type="text"]:hover, #form-register input[type="password"]:hover, #form-register input[type="text"]:focus, #form-register input[type="password"]:focus{
+    outline: none;
+    border-color: #acacac;
+    background-color: #f9f9f9;
+    box-shadow: inset 3px 3px 5px rgba(0,0,0,.05);
+}
+#form-register h1{
+    font-family: 'AntiqueOliveBold', Arial, sans-serif;
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+#form-register h2{
+    font-family: 'Agletcr', Arial, sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+#form-register{
+    margin: 50px auto 0;
+    width: 663px;
+}
+/***** form alerts and error *****/
+#form-register .alert-error{
+    background-color: #d84a34;
+}
+#form-register .alert-success{
+    background-color: #75a81f;
+}
+#form-register .alert{
+    display: none;
+    padding: 3px 0;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Agletcr', Arial, sans-serif;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+#form-register input.error, #form-register textarea.error{
+    border-color: #d84a34;
+    background: #f7eeee;
+    color: #d84a34;
+}
+#form-register span.error{
+    background: #d84a34;
+    box-shadow: none;
+    color: #fff;
+}
+
+@media (max-width: 1179px) and (min-width: 979px){
+    #form-register{
+        width: 663px;
+    }
+    #form-register input[name="password"]{
+        width: 90%;
+        margin: 0 10% 20px 0;
+    }
+    #form-register input[name="password_repeat"]{
+        width: 90%;
+        margin: 0 0 20px 10%;
+    }
+    #form-register .col-lg-6{
+        padding: 0;
+        margin: 0;
+    }
+}
+@media (max-width: 979px) and (min-width: 768px){
+    #form-register{
+        width: 463px;
+    }
+    #form-register input[name="password"]{
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+    #form-register input[name="password_repeat"]{
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+    #form-register .col-lg-6{
+        padding: 0;
+        margin: 0;
+    }
+}
+@media (max-width: 768px){
+    #form-register{
+        width: 463px;
+    }
+    #form-register input[name="password"]{
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+    #form-register input[name="password_repeat"]{
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+    #form-register .col-lg-6{
+        padding: 0;
+        margin: 0;
+    }
+}
+
+
+/***** form alerts and error *****/

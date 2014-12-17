@@ -15,7 +15,7 @@ class MainController extends Controller
     {
         $this->layout = "inner";
         $this->view->description = "UIweb.ru контакты";
-        $this->view->keywords = "разработка сайты php javascript";
+        $this->view->keywords = "uiweb программист дизайнер";
         $this->view->title = "UIweb - контакты";
 
         $this->view->render($this->layout);

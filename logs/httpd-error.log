@@ -135,3 +135,90 @@
 [Wed Dec 10 15:00:04.776402 2014] [:error] [pid 1559] [client 93.170.147.174:58944] script '/var/www/uiweb.ru/www/wp-login.php' not found or unable to stat
 [Thu Dec 11 06:33:57.342352 2014] [:error] [pid 6759] [client 82.146.32.138:39246] script '/var/www/uiweb.ru/www/wp-login.php' not found or unable to stat
 [Mon Dec 15 03:18:12.368828 2014] [:error] [pid 10456] [client 94.102.91.188:46618] PHP Fatal error:  Cannot instantiate abstract class View in /var/www/uiweb.ru/www/php/core/controller/Controller.php on line 12, referer: http://uiweb.ru/
+[Mon Dec 15 20:57:16.491879 2014] [:error] [pid 7029] [client 94.102.91.188:57212] PHP Warning:  Invalid argument supplied for foreach() in /var/www/uiweb.ru/www/php/app/model/form/FormFeedback.php on line 29, referer: http://uiweb.ru/
+[Mon Dec 15 20:57:16.491977 2014] [:error] [pid 7029] [client 94.102.91.188:57212] PHP Warning:  implode(): Invalid arguments passed in /var/www/uiweb.ru/www/php/app/model/form/FormFeedback.php on line 32, referer: http://uiweb.ru/
+[Tue Dec 16 17:42:19.518370 2014] [negotiation:error] [pid 27116] [client 94.102.91.188:50077] AH00687: Negotiation: discovered file(s) matching request: /var/www/uiweb.ru/www/php/error/404 (None could be negotiated).
+[Tue Dec 16 17:42:29.963448 2014] [negotiation:error] [pid 26903] [client 94.102.91.188:50080] AH00687: Negotiation: discovered file(s) matching request: /var/www/uiweb.ru/www/php/error/404 (None could be negotiated).
+[Tue Dec 16 17:42:57.821807 2014] [negotiation:error] [pid 26902] [client 94.102.91.188:50105] AH00687: Negotiation: discovered file(s) matching request: /var/www/uiweb.ru/www/php/error/404 (None could be negotiated).
+[Tue Dec 16 17:46:08.628861 2014] [negotiation:error] [pid 26902] [client 94.102.91.188:50166] AH00687: Negotiation: discovered file(s) matching request: /var/www/uiweb.ru/www/php/error/404 (None could be negotiated).
+[Tue Dec 16 17:48:11.426275 2014] [negotiation:error] [pid 27115] [client 94.102.91.188:50185] AH00687: Negotiation: discovered file(s) matching request: /var/www/uiweb.ru/www/php/error/404 (None could be negotiated).
+[Tue Dec 16 17:48:11.670609 2014] [negotiation:error] [pid 27116] [client 94.102.91.188:50186] AH00687: Negotiation: discovered file(s) matching request: /var/www/uiweb.ru/www/php/error/404 (None could be negotiated).
+[Tue Dec 16 17:48:11.895028 2014] [negotiation:error] [pid 26901] [client 94.102.91.188:50187] AH00687: Negotiation: discovered file(s) matching request: /var/www/uiweb.ru/www/php/error/404 (None could be negotiated).
+[Tue Dec 16 17:50:47.464865 2014] [negotiation:error] [pid 27113] [client 94.102.91.188:50211] AH00687: Negotiation: discovered file(s) matching request: /var/www/uiweb.ru/www/php/error/404 (None could be negotiated).
+[Tue Dec 16 17:53:39.958924 2014] [:error] [pid 26901] [client 94.102.91.188:50276] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 17:53:40.178599 2014] [:error] [pid 26903] [client 94.102.91.188:50277] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 17:54:34.768381 2014] [:error] [pid 27151] [client 94.102.91.188:50285] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 17:54:35.510197 2014] [:error] [pid 27113] [client 94.102.91.188:50286] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 17:54:35.981988 2014] [:error] [pid 26902] [client 94.102.91.188:50287] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 17:54:36.223653 2014] [:error] [pid 27114] [client 94.102.91.188:50288] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 17:54:36.428118 2014] [:error] [pid 26899] [client 94.102.91.188:50289] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 17:54:36.662169 2014] [:error] [pid 26900] [client 94.102.91.188:50290] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 17:54:36.908541 2014] [:error] [pid 27115] [client 94.102.91.188:50291] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 17:54:59.616943 2014] [:error] [pid 27116] [client 94.102.91.188:50294] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 17:55:00.208150 2014] [:error] [pid 26901] [client 94.102.91.188:50295] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 17:55:00.396460 2014] [:error] [pid 26903] [client 94.102.91.188:50296] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 17:55:00.566482 2014] [:error] [pid 27151] [client 94.102.91.188:50297] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 17:55:00.749908 2014] [:error] [pid 27113] [client 94.102.91.188:50298] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 17:55:00.952422 2014] [:error] [pid 26902] [client 94.102.91.188:50299] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 17:55:01.263994 2014] [:error] [pid 27114] [client 94.102.91.188:50300] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 17:55:01.584201 2014] [:error] [pid 26899] [client 94.102.91.188:50301] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 17:55:34.748530 2014] [:error] [pid 26903] [client 94.102.91.188:50321] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 17:55:52.134873 2014] [:error] [pid 26899] [client 94.102.91.188:50332] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 17:55:52.727020 2014] [:error] [pid 26900] [client 94.102.91.188:50333] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 17:56:22.641301 2014] [:error] [pid 27115] [client 94.102.91.188:50337] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 17:56:23.376703 2014] [:error] [pid 27116] [client 94.102.91.188:50338] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 17:56:23.591441 2014] [:error] [pid 26901] [client 94.102.91.188:50339] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 17:56:30.813375 2014] [:error] [pid 27113] [client 94.102.91.188:50344] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 17:56:30.972671 2014] [:error] [pid 26902] [client 94.102.91.188:50345] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 17:56:49.398743 2014] [:error] [pid 27114] [client 94.102.91.188:50349] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 17:56:49.883564 2014] [:error] [pid 26899] [client 94.102.91.188:50350] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 17:56:50.099423 2014] [:error] [pid 26900] [client 94.102.91.188:50351] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 18:04:41.511182 2014] [:error] [pid 27116] [client 94.102.91.188:50488] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 18:04:43.123063 2014] [:error] [pid 26901] [client 94.102.91.188:50489] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 18:05:35.706295 2014] [:error] [pid 26902] [client 94.102.91.188:50501] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 18:05:37.319148 2014] [:error] [pid 27114] [client 94.102.91.188:50502] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 18:06:21.773815 2014] [:error] [pid 27116] [client 94.102.91.188:50517] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 18:06:21.947201 2014] [:error] [pid 26901] [client 94.102.91.188:50518] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 18:07:34.716607 2014] [:error] [pid 29249] [client 94.102.91.188:50529] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 18:08:21.815090 2014] [:error] [pid 29252] [client 94.102.91.188:50627] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 18:09:09.765890 2014] [:error] [pid 29253] [client 94.102.91.188:50643] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 83
+[Tue Dec 16 18:14:54.002751 2014] [negotiation:error] [pid 29252] [client 94.102.91.188:50697] AH00687: Negotiation: discovered file(s) matching request: /var/www/uiweb.ru/www/php/error/404 (None could be negotiated).
+[Tue Dec 16 18:14:57.017547 2014] [negotiation:error] [pid 29249] [client 94.102.91.188:50700] AH00687: Negotiation: discovered file(s) matching request: /var/www/uiweb.ru/www/php/error/404 (None could be negotiated).
+[Tue Dec 16 18:19:47.301736 2014] [negotiation:error] [pid 29252] [client 94.102.91.188:51517] AH00687: Negotiation: discovered file(s) matching request: /var/www/uiweb.ru/www/php/error/404 (None could be negotiated).
+[Tue Dec 16 18:19:59.707834 2014] [negotiation:error] [pid 29253] [client 94.102.91.188:51521] AH00687: Negotiation: discovered file(s) matching request: /var/www/uiweb.ru/www/php/error/404 (None could be negotiated).
+[Tue Dec 16 18:20:00.266871 2014] [negotiation:error] [pid 29250] [client 94.102.91.188:51522] AH00687: Negotiation: discovered file(s) matching request: /var/www/uiweb.ru/www/php/error/404 (None could be negotiated).
+[Tue Dec 16 18:20:45.029637 2014] [:error] [pid 29253] [client 94.102.91.188:51544] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 18:20:45.293619 2014] [:error] [pid 29250] [client 94.102.91.188:51545] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 18:20:51.414686 2014] [:error] [pid 29251] [client 94.102.91.188:51547] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 18:20:51.678443 2014] [:error] [pid 29249] [client 94.102.91.188:51548] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 18:23:28.117974 2014] [:error] [pid 29252] [client 94.102.91.188:51574] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 18:23:28.774816 2014] [:error] [pid 29253] [client 94.102.91.188:51575] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 18:23:28.969005 2014] [:error] [pid 29250] [client 94.102.91.188:51576] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 18:23:39.115029 2014] [:error] [pid 29253] [client 94.102.91.188:51585] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 18:23:46.123635 2014] [:error] [pid 29250] [client 94.102.91.188:51591] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 18:23:58.996258 2014] [:error] [pid 29251] [client 94.102.91.188:51594] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 18:24:00.014454 2014] [:error] [pid 29249] [client 94.102.91.188:51597] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 18:24:22.397398 2014] [:error] [pid 29252] [client 94.102.91.188:51604] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 18:24:31.674268 2014] [:error] [pid 29249] [client 94.102.91.188:51613] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 18:24:32.902418 2014] [:error] [pid 29252] [client 94.102.91.188:51614] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 18:46:56.260924 2014] [:error] [pid 29252] [client 94.102.91.188:52158] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 18:46:56.454168 2014] [:error] [pid 30714] [client 94.102.91.188:52159] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 18:48:29.082946 2014] [:error] [pid 29250] [client 94.102.91.188:52199] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 18:48:29.861760 2014] [:error] [pid 29252] [client 94.102.91.188:52200] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 18:54:59.364750 2014] [:error] [pid 29250] [client 94.102.91.188:52342] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Tue Dec 16 18:55:00.261335 2014] [:error] [pid 29252] [client 94.102.91.188:52343] PHP Fatal error:  Class 'Index.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Wed Dec 17 04:44:21.942013 2014] [:error] [pid 1559] [client 109.87.231.183:60341] PHP Fatal error:  Class 'Admin.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Wed Dec 17 04:44:22.073846 2014] [:error] [pid 1560] [client 109.87.231.183:60342] PHP Fatal error:  Class 'AdministratorController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Wed Dec 17 04:44:22.130534 2014] [:error] [pid 1556] [client 109.87.231.183:60343] PHP Fatal error:  Class 'Wp-login.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Wed Dec 17 09:27:40.863566 2014] [:error] [pid 1558] [client 178.210.65.38:60589] PHP Fatal error:  Class 'BitrixController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Wed Dec 17 09:27:46.012444 2014] [:error] [pid 1560] [client 178.210.65.38:60591] PHP Fatal error:  Class 'NodeController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Wed Dec 17 09:27:56.120765 2014] [:error] [pid 1557] [client 178.210.65.38:60593] PHP Fatal error:  Class 'ManagerController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Wed Dec 17 09:27:58.142621 2014] [:error] [pid 1558] [client 178.210.65.38:60594] PHP Fatal error:  Class 'ManagerController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Wed Dec 17 09:28:00.164809 2014] [:error] [pid 1559] [client 178.210.65.38:60595] PHP Fatal error:  Class 'NetcatController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Wed Dec 17 09:28:04.207747 2014] [:error] [pid 1560] [client 178.210.65.38:60596] PHP Fatal error:  Class 'UsersController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Wed Dec 17 09:28:06.230809 2014] [:error] [pid 1556] [client 178.210.65.38:60597] PHP Fatal error:  Class 'InstalledController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Wed Dec 17 09:28:07.242702 2014] [:error] [pid 1557] [client 178.210.65.38:60598] PHP Fatal error:  Class 'UsersController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Wed Dec 17 09:28:08.253865 2014] [:error] [pid 1558] [client 178.210.65.38:60599] PHP Fatal error:  Class 'AdminController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Wed Dec 17 09:28:10.275533 2014] [:error] [pid 1559] [client 178.210.65.38:60600] PHP Fatal error:  Class 'Wp-adminController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Wed Dec 17 09:28:11.287617 2014] [:error] [pid 1560] [client 178.210.65.38:60601] PHP Fatal error:  Class 'Wp-contentController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82
+[Wed Dec 17 09:28:13.308570 2014] [:error] [pid 1556] [client 178.210.65.38:60602] PHP Fatal error:  Class 'Wp-login.phpController' not found in /var/www/uiweb.ru/www/php/Route.php on line 82

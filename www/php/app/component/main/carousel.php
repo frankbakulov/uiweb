@@ -2,12 +2,12 @@
     <h1 class="text-center">Наши проекты</h1>
     <div>
         <div>
+            <div class="tablet-glass"></div>
+            <div class="tablet-border-shadow"></div>
             <div id="tablet-slider">
                 <div class="slider-inner">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                    <div><img src="/php/assets/main/img/timerun.ru.jpg"></div>
+                    <div><img src="/php/assets/main/img/inbaget.ru.jpg"></div>
                 </div>
             </div>
         </div>

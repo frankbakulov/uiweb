@@ -1,3 +1,1 @@
-<?
-$form = new FormFeedback();
-echo json_encode($form->save());
+<?=json_encode((new FormFeedback())->save());?>

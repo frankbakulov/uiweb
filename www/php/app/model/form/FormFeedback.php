@@ -57,5 +57,6 @@ class FormFeedback extends Model
 
         //текст
         $this->validation->validateEmpty($this->text, 'text', "Расскажите нам о своём проекте");
+
     }
 }

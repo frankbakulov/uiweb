@@ -103,7 +103,7 @@ class Query extends Db
         $values = get_object_vars($this);
         $column_names = $this->getColumnNames($this->table_name);
 
-        print_r($this->getColumnNames($this->table_name));
+        //print_r($this->getColumnNames($this->table_name));
 
         //проверка есть ли такое поле в таблице
         foreach($values as $k => $v){

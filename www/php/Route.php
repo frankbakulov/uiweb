@@ -75,8 +75,7 @@ class Route
         if(file_exists($controller_path)){
             require_once $controller_path;
         }else{
-            $redirect = new Redirect();
-            $redirect->ErrorPage404();
+            //(new Redirect())->ErrorPage404();
         }
 
         // создаем контроллер
@@ -91,8 +90,7 @@ class Route
                 $controller->$action();
             }
         }else{
-            $redirect = new Redirect();
-            $redirect->ErrorPage404();
+            //(new Redirect())->ErrorPage404();
         }
 
     }

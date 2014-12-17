@@ -7,6 +7,6 @@
 define("DB_TYPE", "mysql");
 define("DB_HOST", "dev2.uiweb.ru");
 define("DB_NAME", "dev2.uiweb.ru");
-define("DB_USERNAME", "dev2.uiweb.ru");
-define("DB_PASSWORD", "A123863254125236ab*");
+define("DB_USERNAME", "");
+define("DB_PASSWORD", "*");
 define("DB_CHARSET", "utf8");
